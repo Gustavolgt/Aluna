@@ -4,7 +4,7 @@ import 'animate.css'
 
 const footer = () => {
   const [text, setText] = useState('Acesse Video Aulas Exclusivas')
-  const url = 'https://www.clubedeamigurumi.com/'
+  const url = 'https://www.clubeamigurumi.com/'
 
   useEffect(() => {
     const texts = [
