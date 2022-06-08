@@ -11,7 +11,7 @@ import Footer from './footer'
 const index = () => {
   const router = useRouter();
   const { nid } = router.query
-  let formatedNid = `55${nid}@s.whatsapp.net`
+  let formatedNid = `${nid}@s.whatsapp.net`
   const { data } = useAxios(`client/${formatedNid}`);
   return (
     <>
